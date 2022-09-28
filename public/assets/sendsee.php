@@ -9,7 +9,7 @@
 
 	$msg = "顧客姓名:".$namess."\n".
 		"聯絡電話:". $tel."\n".   
-		"電子信箱:". $email."\n".;
+		"電子信箱:". $email."\n";
 		// "房屋類型:". $house_types."\n".
 		// "居住區域:". $area."\n";
 	mb_internal_encoding("UTF-8");
