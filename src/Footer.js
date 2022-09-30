@@ -59,7 +59,7 @@ function Footer() {
         <div className='bg-[#00000080] w-full h-full  absolute inset-0 z-0  ' onClick={()=>setIsOpen(!isOpen)}></div>
         <div className=' absolute z-10 top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%] w-3/5 h-4/5 bg-white mx-auto px-10 py-10 rounded-sm border-slate-200 overflow-y-scroll'>
           <div className='text-lg font-bold mt-4 border-b-1 border-[#999] pb-15'>個人資料保護政策暨隱私權聲明</div>
-          <div className='text-base  text-zinc-500 leading-8 mb-6 mt-6'>昌鴻建設（下稱「本公司」）依據個人資料保護法，向您告知以下隱私權政策規範，若您勾選「我同意隱私權政策」，將表示您已同意本公司之隱私權政策，並同意本公司依以下告知事項，就您的個人資料進行蒐集、處理及利用。您可以自由選擇是否提供相關個人資料，若您拒絕，本公司將可能無法執行本告知事項蒐集目的之業務，致無法向您提供相關服務：</div>
+          <div className='text-base  text-zinc-500 leading-8 mb-6 mt-6'>昌鴻國際建設（下稱「本公司」）依據個人資料保護法，向您告知以下隱私權政策規範，若您勾選「我同意隱私權政策」，將表示您已同意本公司之隱私權政策，並同意本公司依以下告知事項，就您的個人資料進行蒐集、處理及利用。您可以自由選擇是否提供相關個人資料，若您拒絕，本公司將可能無法執行本告知事項蒐集目的之業務，致無法向您提供相關服務：</div>
 
           <div className='text-lg ont-bold mt-4'>一、蒐集目的和使用方式：</div>
           <div className='text-base text-zinc-500 leading-8 mb-6'>本公司依據個人資料保護法及相關法令之規定，為了提供您登錄網站、索取資料、訂閱資訊、反應意見、進行各種諮詢等服務；或為了與您聯繫、行銷（包括但不限於廣告及各項商品、活動、促銷、優惠訊息之通知等）、執行消費者及客戶管理分析、執行各種公司營業登記項目或組織章程所定業務範圍內之必要行為，對您的個人資料進行蒐集、處理、利用及國際傳輸。</div>
@@ -80,24 +80,23 @@ function Footer() {
       </Modal>  }
       <div className='w-11/12 mx-auto flex gap-10 flex-col  lg:flex-row justify-start' >
         <div className='w-full  lg:w-1/2' data-aos="fade-up" data-aos-duration="1500">
-            <div className='text-[#4E1951] text-xl lg:text-3xl font-bold  mb-5 tracking-[1px]  lg:tracking-[1px] leading-10 text-center lg:text-left '>
-              <div className=''><span className=' border-b border-[#4E1951] pb-2 lg:border-none'>昌鴻建設X金日升建設</span>  </div>  
-              
-              <div className='tracking-[4.3px] lg:tracking-[6.5px]'>府城之心 幸福歌頌</div> 
+            <div className='text-[#4E1951] text-xl lg:text-3xl font-bold  mb-5  leading-10  flex flex-col w-fit mx-auto lg:mx-0'>
+              <div className='tracking-[1px] lg:tracking-[1px] border-b border-[#4E1951] pb-2 lg:border-none'>昌鴻國際建設✕金日升建設</div>  
+              <div className='tracking-[8px] indent-[2px] lg:tracking-[10.5px] lg:indent-[5.25px]'>臻選建材．工藝淬煉</div> 
             </div>
-            <div className='w-4/5 mx-auto lg:w-full'>
-              <div className='flex items-center gap-5 mb-5 lg:mt-20'>
+            <div className='w-4/5 mx-auto w-fit lg:w-full mt-16 lg:mt-20'>
+              {/* <div className='flex items-center gap-5 mb-5 lg:mt-20'>
                 <div className='bg-[#4E1951] rounded-full p-2 mr-1'><FaPhoneAlt color='white' size='10' /></div>
                 <a href="tel:062958892" target="_blank"><b className='text-[#4E1951] lg:text-xl  font-bold'>預約專線｜06-2958892</b></a>
-              </div>
+              </div> */}
               <div className='flex items-center gap-5 mb-5 '>
                 <div className='bg-[#4E1951] rounded-full p-2 mr-1'><FaMapMarkerAlt  color='white' size='10' /></div>
-                <b className='text-[#4E1951] lg:text-xl font-bold'>接待中心｜安平區怡平路140巷</b>
+                <b className='text-[#4E1951] lg:text-xl font-normal'>服務總部｜台南市安平區府前路二段622號</b>
               </div>
             </div>
 
-            <div className="mt-10 lg:mt-20">
-              <iframe width="100%" height="300" className="mb-10" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3672.810423162018!2d120.17973049999999!3d22.993997699999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346e760d0dd2c865%3A0x9b80ea2fb96683d4!2zNzA45Y-w5Y2X5biC5a6J5bmz5Y2A5oCh5bmz6LevMTQw5be3!5e0!3m2!1szh-TW!2stw!4v1664356311724!5m2!1szh-TW!2stw" frameBorder="0" allowFullScreen=""/>
+            <div className="mt-16 lg:mt-20">
+              <iframe width="100%" height="300" className="mb-10" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3672.827190280195!2d120.18409770000001!3d22.9933813!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346e767292b5597d%3A0xf4595fc64899c3d8!2zNzA45Y-w5Y2X5biC5a6J5bmz5Y2A5bqc5YmN6Lev5LqM5q61NjIy6Jmf!5e0!3m2!1szh-TW!2stw!4v1664537464689!5m2!1szh-TW!2stw" frameBorder="0" allowFullScreen=""/>
             </div>
           </div>
           {/* 表單 */}
