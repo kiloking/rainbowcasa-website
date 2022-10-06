@@ -84,12 +84,12 @@ function Footer() {
               <div className='tracking-[1px] lg:tracking-[1px] border-b border-[#4E1951] pb-2 lg:border-none'>昌鴻國際建設✕金日升建設</div>  
               <div className='tracking-[8px] indent-[2px] lg:tracking-[10.5px] lg:indent-[5.25px]'>臻選建材．工藝淬煉</div> 
             </div>
-            <div className='w-4/5 mx-auto w-fit lg:w-full mt-16 lg:mt-20'>
+            <div className='w-4/5 mx-auto w-fit lg:w-full mt-16 lg:mt-20 lg:mx-0'>
               {/* <div className='flex items-center gap-5 mb-5 lg:mt-20'>
                 <div className='bg-[#4E1951] rounded-full p-2 mr-1'><FaPhoneAlt color='white' size='10' /></div>
                 <a href="tel:062958892" target="_blank"><b className='text-[#4E1951] lg:text-xl  font-bold'>預約專線｜06-2958892</b></a>
               </div> */}
-              <div className='flex items-center gap-5 mb-5 '>
+              <div className='flex items-center gap-5 mb-5 w-fit mx-auto lg:mx-0'>
                 <div className='bg-[#4E1951] rounded-full p-2 mr-1'><FaMapMarkerAlt  color='white' size='10' /></div>
                 <b className='text-[#4E1951] lg:text-xl font-normal'>服務總部｜台南市安平區府前路二段622號</b>
               </div>
