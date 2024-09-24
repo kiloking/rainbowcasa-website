@@ -8,6 +8,7 @@ import Section02 from "./release/Section02";
 import Section03 from "./release/Section03";
 import Section04 from "./release/Section04";
 import Section05 from "./release/Section05";
+import Section06 from "./release/Section06";
 function App() {
   useEffect(() => {
     setTimeout(function () {
@@ -21,6 +22,7 @@ function App() {
       <Section01 />
       <Section02 />
       <Section03 />
+      <Section06 />
       <Section04 />
       <Section05 />
       <Footer />
