@@ -28,8 +28,6 @@ function Header() {
           src={process.env.PUBLIC_URL + "/images/release/header_p01.png"}
           alt=""
           className="max-w-full mx-auto"
-          data-aos="fade"
-          data-aos-duration="1500"
         />
       </div>
     </div>

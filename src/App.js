@@ -9,6 +9,8 @@ import Section03 from "./release/Section03";
 import Section04 from "./release/Section04";
 import Section05 from "./release/Section05";
 import Section06 from "./release/Section06";
+import MobileBottomMenu from "./Components/MobileBottomMenu";
+
 function App() {
   useEffect(() => {
     setTimeout(function () {
@@ -26,6 +28,7 @@ function App() {
       <Section04 />
       <Section05 />
       <Footer />
+      <MobileBottomMenu />
     </div>
   );
 }
